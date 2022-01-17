@@ -17,18 +17,15 @@ const average = (numbers) => {
   for (let i = 0; i < numbers.length; i += 1) {
     if (typeof numbers[i] === 'number') {
     sum += numbers[i];
-    } else {
+    } else if (typeof numbers[i] !== 'number') {
       return undefined;
     }
   }
-  if (numbers === []) {
+  if (numbers.length === 0) {
     return undefined;
   }
   let result = Math.round(sum / numbers.length);
-
   return result;
 };
-
-// average([47, 63, 122]);
 
 module.exports = average;
