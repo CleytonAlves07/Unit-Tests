@@ -25,7 +25,7 @@ const productDetails = require('../src/productDetails');
   ]
 
 */
-
+// Feito com a ajuda de Allan e Jhony.
 describe('6 - Implemente os casos de teste para a função `productDetails`', () => {
   it('Verifica se a função `productDetails` tem o comportamento esperado', () => {
     // ESCREVA SEUS TESTES ABAIXO:

@@ -18,7 +18,7 @@
                            2, 2, 3, 
                            3, 2, 3];
 */
-
+// Feito com o apoio de Allan e Marcílio.
 const myCounter = () => {
   var myArray = [];
   for (var counter = 0; counter <= 3; counter += 1) {

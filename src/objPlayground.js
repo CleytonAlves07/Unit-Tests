@@ -32,7 +32,7 @@
   arrayGenerator('values', { sum: 3, mult: 2, div: 1, sub: 0 }) // [ 3, 2, 1, 0 ]
   arrayGenerator('entries', { sum: 3, mult: 2, div: 1, sub: 0 }) // [ [ 'sum', 3 ], [ 'mult', 2 ], [ 'div', 1 ], [ 'sub', 0 ] ]
 */
-
+// Feito com a ajuda de Christian.
 const calculator = (number1, number2) => ({
   sum: number1 + number2,
   mult: number1 * number2,
